@@ -34,6 +34,7 @@ def events_hourly():
 
     result_list = []
     date_list = {}
+
     for result in results:
         date = result[0].strftime("%Y-%m-%d")
         new_result = {'date': date, 'hour': result[1], 'events': result[2], 'poiName': result[3]}
