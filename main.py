@@ -1,7 +1,6 @@
 from flask import Flask
 import os
 import time
-import datetime
 from dotenv import load_dotenv
 from database import Database
 from database import CursorFromConnectionFromPool
